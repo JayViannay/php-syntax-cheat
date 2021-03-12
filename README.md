@@ -6,24 +6,28 @@ if (/*condition ici */) {
 }
 ``` 
 
-// ou 
+=> ou 
 
-```if (/*condition ici */) {
+```
+if (/*condition ici */) {
     // code ici
 } else {
     // autre code ici
-}```
+}
+```
 
-// ou 
+=> ou 
 
-```if (/*condition ici */) {
+```
+if (/*condition ici */) {
     // code ici
 } elseif (/*condition ici */) {
     // autre code ici
 } else {
     // autre code ici
-}```
+}
+```
 
 
-// Variables & types de variables =
+=> Variables & types de variables =
 

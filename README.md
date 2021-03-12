@@ -1,8 +1,10 @@
 # Structure de contrôle
 
-```if (/*condition ici */) {
+```
+if (/*condition ici */) {
     // code ici
-}``` 
+}
+``` 
 
 // ou 
 

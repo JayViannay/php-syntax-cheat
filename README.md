@@ -46,6 +46,7 @@ if (/*condition(s) here */) {
     // other code here
 }
 ```
+
 ### | Switch syntax
 Can be used with numbers, or strings
 ```
@@ -66,6 +67,7 @@ SWITCH ($param) {
 
 ## Functions 
 **| Simple function**
+
 ```
 function functionName()
 {
@@ -75,6 +77,7 @@ function functionName()
 ```
 
 **| Function with parameter(s)**
+
 ```
 function functionName(param1, param2)
 {
@@ -131,6 +134,7 @@ output => <br>
 2 <br>
 3 <br>
 4 <br>
+</small>
 
 ## Arrays
 

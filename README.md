@@ -102,7 +102,8 @@ output => <br>
 </small>
 
 ### FOREACH (loop through an array)
->```$array = ['Paris','c\'est','Gotham'];
+>```
+>$array = ['Paris','c\'est','Gotham'];
 >foreach ($array as $value) { 
 >    echo $value;
 >}
@@ -116,7 +117,8 @@ Gotham <br>
 
 ### WHILE (loop through query results)
 
->```$i = 0;
+>```
+>$i = 0;
 >do {
 >    echo $i++;
 >} while ($i < 5)

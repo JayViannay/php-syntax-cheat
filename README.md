@@ -107,6 +107,7 @@ output => <br>
 >foreach ($array as $value) { 
 >    echo $value;
 >}
+>```
 <small>
 output => <br>
 Paris <br>
@@ -120,7 +121,7 @@ Gotham <br>
 >do {
 >    echo $i++;
 >} while ($i < 5)
-
+>```
 <small>
 output => <br> 
 1 <br>

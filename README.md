@@ -102,7 +102,7 @@ output => <br>
 >```
 >$array = ['Paris','c\'est','Gotham'];
 >foreach ($array as $value) { 
->    echo $value
+>    echo $value;
 >}
 <small>
 output => <br>
@@ -115,7 +115,7 @@ Gotham <br>
 >```
 >$i = 0;
 >do {
->    echo $i++
+>    echo $i++;
 >} while ($i < 5)
 
 <small>

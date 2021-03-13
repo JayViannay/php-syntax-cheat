@@ -81,6 +81,9 @@ SWITCH ($param) {
 >}
 >```
 
+- Call function : ```functionName();```
+- Call & print result of a function : ```echo functionName();```
+  
 ## Loops
 
 **| FOR (loop until a condition is met)**

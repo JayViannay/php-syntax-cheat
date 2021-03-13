@@ -66,20 +66,22 @@ SWITCH ($param) {
 
 ## Functions 
 **| Simple function**
->```
->function functionName()
->{
->    // here code 
->    return $result;
->}
+```
+function functionName()
+{
+    // here code 
+    return $result;
+}
+```
+
 **| Function with parameter(s)**
->```
->function functionName(param1, param2)
->{
->    // here code uses param1 & param2
->    return $result;
->}
->```
+```
+function functionName(param1, param2)
+{
+    // here code uses param1 & param2
+    return $result;
+}
+```
 
 - Call function : ```functionName();```
 - Call & print result of a function : ```echo functionName();```
@@ -87,11 +89,11 @@ SWITCH ($param) {
 ## Loops
 
 **| FOR (loop until a condition is met)**
->```
->for($i = 0; $i < 5; $i++){
->    echo $i;
->}
->``` 
+```
+for($i = 0; $i < 5; $i++){
+    echo $i;
+}
+``` 
 <small>
 output => <br>
 0 <br>
@@ -102,12 +104,12 @@ output => <br>
 </small>
 
 ### FOREACH (loop through an array)
->```
->$array = ['Paris','c\'est','Gotham'];
->foreach ($array as $value) { 
->    echo $value;
->}
->```
+```
+$array = ['Paris','c\'est','Gotham'];
+foreach ($array as $value) { 
+    echo $value;
+}
+```
 <small>
 output => <br>
 Paris <br>
@@ -117,12 +119,12 @@ Gotham <br>
 
 ### WHILE (loop through query results)
 
->```
->$i = 0;
->do {
->    echo $i++;
->} while ($i < 5)
->```
+```
+$i = 0;
+do {
+    echo $i++;
+} while ($i < 5)
+```
 <small>
 output => <br> 
 1 <br>

@@ -50,17 +50,18 @@ if (/*condition(s) here */) {
 ### | Switch syntax
 Can be used with numbers, or strings
 ```
-SWITCH ($param) { 
-    case 1:
-        // code here
-    break;
-
-    case 2: 
-        // code here
-    break; 
-
-    default: 
-        // code here
+switch ($age) {
+    case $age < 15:
+        echo $age;
+        break;
+    case $age >= 15 && $age <= 25:
+        echo $age;
+        break;
+    case $age >= 26 && $age <= 30:
+        echo $age;
+        break;
+    default:
+        echo "Well done";
 }
 ```
 
@@ -79,7 +80,7 @@ function functionName()
 **| Function with parameter(s)**
 
 ```
-function functionName(param1, param2)
+function functionName($param1, $param2)
 {
     // here code uses param1 & param2
     return $result;
@@ -130,6 +131,7 @@ do {
 ```
 <small>
 output => <br> 
+0 <br>
 1 <br>
 2 <br>
 3 <br>

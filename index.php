@@ -18,7 +18,7 @@ $isOk = true; // boolean
 // Structure de controle
 
 if ($isOk === false) {
-    echo "You have to ok";
+    echo "You have to be ok";
 } else {
     echo "Well done !";
 }

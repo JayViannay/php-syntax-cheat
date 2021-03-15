@@ -11,7 +11,7 @@
 - <span style="color:red">```trim($string)```</span> trims leading and trainling spaces
 - <span style="color:red">```explode($separator, $string)```</span> makes array of strings, each of which is a substring of the string parameter extracted using the separator 
 - <span style="color:red">```implode($separator, $string)```</span> makes the elements of an array into a string 
-- <span style="color:red">```count($array)```</span> count all elements in an array, or something in an object
+- <span style="color:red">```count($array)```</span> count all elements from an array, or something in an object
 - <span style="color:red">```echo $string```</span> displays a string
 - <span style="color:red">```print_r($array)```</span> displays readable information for a variable
 - <span style="color:red">```require 'file.php' ```</span> The include statement will issue E_ERROR if it cannot find the file, E_ERROR stops the script
